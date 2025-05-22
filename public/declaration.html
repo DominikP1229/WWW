@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FastFood</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="declaration.css">
+</head>
+
+<body>
+    <header>
+        <button id="nav_button">
+            <img src="nav_button.png" alt="Navbar button">
+        </button>
+
+        <a href="index.html"><img src="main_logo_small.png" alt="FastFood logo" id="logo"></a>
+
+        <a href="order.html" id="cart">
+            <img src="shopping_cart.png" alt="Koszyk">
+        </a>
+    </header>
+    <nav id="page_nav">
+        <label class="theme-switch">
+            <input type="checkbox" id="themeToggle">
+            <span class="slider"></span> Ciemny motyw
+        </label>
+        <a href="about_us.html"><p>O nas</p></a>
+        <a href="declaration.html"><p>Deklaracja dostępności</p></a>
+
+    </nav>
+
+    <main id="accessibility-declaration">
+        <h1>Deklaracja dostępności</h1>
+
+        <p><strong>Nazwa podmiotu:</strong> FastFood Express</p>
+        <p><strong>Adres strony internetowej:</strong> <a href="https://www.fastfoodexpress.pl"
+                target="_blank">https://www.fastfoodexpress.pl</a></p>
+
+        <p>
+            FastFood Express zobowiązuje się zapewnić dostępność swojej strony internetowej zgodnie z ustawą z dnia 4
+            kwietnia 2019 r.
+            o dostępności cyfrowej stron internetowych i aplikacji mobilnych podmiotów publicznych.
+        </p>
+
+        <h2>Status pod względem zgodności z ustawą</h2>
+        <p>
+            Strona internetowa jest <strong>częściowo zgodna</strong> z ustawą z dnia 4 kwietnia 2019 r. o dostępności
+            cyfrowej,
+            z powodu niezgodności lub wyłączeń wymienionych poniżej.
+        </p>
+
+        <h2>Treści niedostępne</h2>
+        <ul>
+            <li>Niektóre elementy graficzne mogą nie posiadać pełnych opisów alternatywnych (alt).</li>
+            <li>Część dokumentów PDF może być niedostępna cyfrowo.</li>
+            <li>Elementy dynamiczne (np. menu, koszyk) mogą nie być w pełni obsługiwane przez czytniki ekranu.</li>
+            <li>Filmy promocyjne nie zawierają napisów.</li>
+        </ul>
+
+        <h2>Wyłączenia</h2>
+        <p>Mapy są wyłączone z obowiązku zapewniania dostępności.</p>
+
+        <h2>Data sporządzenia deklaracji</h2>
+        <p>Deklarację sporządzono dnia: <strong>20.05.2025</strong></p>
+        <p>Deklaracja została sporządzona na podstawie samooceny przeprowadzonej przez FastFood Express.</p>
+
+        <h2>Informacje zwrotne i dane kontaktowe</h2>
+        <p>
+            W przypadku problemów z dostępnością strony internetowej prosimy o kontakt:
+        </p>
+        <ul>
+            <li><strong>E-mail:</strong> <a
+                    href="mailto:dostepnosc@fastfoodexpress.pl">dostepnosc@fastfoodexpress.pl</a></li>
+            <li><strong>Telefon:</strong> <a href="tel:+48123456789">123 456 789</a></li>
+            <li><strong>Osoba do kontaktu:</strong> Koordynator ds. dostępności cyfrowej</li>
+        </ul>
+        <p>
+            Tą samą drogą można składać:
+        <ul>
+            <li>wnioski o udostępnienie informacji niedostępnej,</li>
+            <li>żądania zapewnienia dostępności.</li>
+        </ul>
+        </p>
+
+        <h2>Procedura odwoławcza</h2>
+        <p>
+            Jeśli na zgłoszenie nie zostanie udzielona odpowiedź w terminie 7 dni lub zostanie ona uznana za
+            niewystarczającą,
+            użytkownik ma prawo złożyć skargę do:
+        </p>
+        <p>
+            <strong>Rzecznika Praw Obywatelskich</strong><br>
+            <a href="https://www.rpo.gov.pl" target="_blank">https://www.rpo.gov.pl</a>
+        </p>
+    </main>
+
+  <footer>
+    <p><strong>FastFood Express</strong><br>
+      ul. Smakowa 12, 00-001 Warszawa<br>
+      Tel: <a href="tel:+48123456789">+48 123 456 789</a><br>
+      E-mail: <a href="mailto:kontakt@fastfoodexpress.pl">kontakt@fastfoodexpress.pl</a></p>
+    <p><strong>Godziny otwarcia:</strong><br>
+      Pon–Pt: 10:00–22:00<br>
+      Sob–Niedz: 11:00–23:00</p>
+  </footer>
+
+    <script src="dark_mode_switch.js"></script>
+    <script src="navbar.js"></script>
+    <script src="cart.js"></script>
+</body>
+
+</html>

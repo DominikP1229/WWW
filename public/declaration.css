@@ -1,0 +1,73 @@
+/* Stylizacja sekcji deklaracji dostępności */
+#accessibility-declaration {
+    max-width: 800px;
+    margin: 4rem auto;
+    padding: 2rem;
+    background-color: #fefefe;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    line-height: 1.7;
+    transition: max-height 0.4s ease, opacity 0.4s ease, background-color 0,5s ease;
+}
+
+body[data-theme="dark"]>#accessibility-declaration {
+    background-color: #303030;
+    color: white;
+}
+
+/* Nagłówki główne i podrzędne */
+#accessibility-declaration h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid rgb(255, 192, 18);
+    padding-bottom: 0.5rem;
+}
+
+#accessibility-declaration h2 {
+    font-size: 1.8rem;
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+    border-left: 6px solid rgb(255, 192, 18);
+    padding-left: 0.75rem;
+}
+
+/* Akapity */
+#accessibility-declaration p {
+    margin-bottom: 1.2rem;
+}
+
+/* Listy punktowane */
+#accessibility-declaration ul {
+    padding-left: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+#accessibility-declaration li {
+    margin-bottom: 0.6rem;
+}
+
+/* Linki */
+#accessibility-declaration a {
+    text-decoration: none;
+    border-bottom: 1px dotted rgb(255, 192, 18);
+    transition: border-color 0.3s;
+    color: black;
+}
+
+body[data-theme="dark"]>#accessibility-declaration a {
+    color: white;
+}
+
+
+#accessibility-declaration a:hover {
+    border-bottom: 1px solid rgb(255, 192, 18);
+}
+
+/* Wyróżnienia */
+#accessibility-declaration strong {
+    background-color: rgb(255, 192, 18);
+    color: #303030;
+    padding: 0.1rem 0.3rem;
+    border-radius: 4px;
+    font-weight: 600;
+}
