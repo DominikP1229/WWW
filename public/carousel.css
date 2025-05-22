@@ -1,0 +1,60 @@
+/* Karuzela */
+#carousel {
+    position: relative;
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.carousel-container {
+    transition: transform 0.5s ease-in-out;
+    /* Płynna animacja przy zmianie slajdów */
+}
+
+.carousel-slide {
+    display: flex;
+    /* Flexbox umożliwia ustawienie obrazków w poziomie */
+}
+
+.carousel-slide img {
+    width: 100%;
+    /* Obrazki zajmują pełną szerokość kontenera */
+    height: auto;
+    /* Zachowują proporcje */
+    flex-shrink: 0;
+    /* Zapewnia, że obrazek nie zostanie zmniejszony */
+}
+
+#carousel button {
+    position: absolute;
+    top: 50%;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    font-size: 18px;
+    border: none;
+    padding: 20px;
+    cursor: pointer;
+    z-index: 1;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.prev {
+    left: 0;
+    border-radius: 0 20px 20px 0;
+}
+
+.next {
+    right: 0;
+    border-radius: 20px 0 0 20px;
+}
+
+.prev,
+.next {
+    transform: translateY(-50%);
+    height: 100%;
+}
+
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.5) !important;
+}
