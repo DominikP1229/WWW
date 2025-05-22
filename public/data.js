@@ -8,14 +8,14 @@ function fetchProducts() {
             products = data;
             categories = [...new Set(data.map(product => product.category))];
             populateCategories();
-            renderCategoryLinks(); // ⬅️ dodajemy tylko raz
+            renderCategoryLinks();
             displayProducts(products);
         })
         .catch(error => console.error('Błąd pobierania danych:', error));
     changeNumberOfProductsInCart();
 }
 
-// 🔄 Renderuje tylko listę produktów
+// Renderuje tylko listę produktów
 function displayProducts(filteredProducts) {
     const productsContainer = document.getElementById('products');
     productsContainer.innerHTML = '';
@@ -102,7 +102,7 @@ function displayProducts(filteredProducts) {
     }
 }
 
-// ✅ Nowa funkcja do tworzenia kategorii z linkami (raz!)
+// Funkcja do tworzenia kategorii z linkami
 function renderCategoryLinks() {
     const categoriesSection = document.getElementById("categories");
     categoriesSection.innerHTML = "";
