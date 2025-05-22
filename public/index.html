@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FastFood</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="carousel.css">
+  <link rel="stylesheet" href="filters.css">
+  <link rel="stylesheet" href="nav.css">
+</head>
+
+<body>
+  <header>
+    <button id="nav_button">
+      <img src="nav_button.png" alt="Navbar button">
+    </button>
+
+    <a href="index.html"><img src="main_logo_small.png" alt="FastFood logo" id="logo"></a>
+
+    <a href="order.html" id="cart">
+      <img src="shopping_cart.png" alt="Koszyk">
+    </a>
+  </header>
+  <nav id="page_nav">
+    <label class="theme-switch">
+      <input type="checkbox" id="themeToggle">
+      <span class="slider"></span> Ciemny motyw
+    </label>
+    <a href="about_us.html">
+      <p>O nas</p>
+    </a>
+    <a href="declaration.html">
+      <p>Deklaracja dostępności</p>
+    </a>
+
+  </nav>
+  <section id="carousel">
+    <div class="carousel-container">
+      <div class="carousel-slide">
+        <img src="advert1.png" alt="Zestaw łagodny" />
+        <img src="advert2.png" alt="Zestaw ostry" />
+        <img src="advert3.png" alt="Zestaw czarny burger" />
+      </div>
+    </div>
+    <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+    <button class="next" onclick="moveSlide(1)">&#10095;</button>
+  </section>
+
+  <!-- Filtry -->
+  <main>
+    <h1>
+      SPRAWDŹ WSZYSTKIE PRODUKTY SIECI RESTAURACJI FASTFOOD!
+    </h1>
+    <section id="categories">
+
+    </section>
+    <section id="filters">
+      <div>
+        <label for="category">Kategoria:</label>
+        <select id="category" onchange="applyFilters()">
+          <!-- Kategorie będą generowane dynamicznie -->
+        </select>
+      </div>
+      <div>
+        <label for="spicy">Ukryj ostre:</label>
+        <input type="checkbox" id="spicy" onchange="applyFilters()">
+      </div>
+      <div>
+        <label for="search">Znajdź ofertę:</label>
+        <input type="text" id="search" oninput="applyFilters()" placeholder="np. burger...">
+      </div>
+    </section>
+
+    <section id="products">
+      <!-- Produkty będą generowane dynamicznie z danych JSON -->
+      <!-- <article class="product">
+        <img src="ścieżka_do_zdjęcia" alt="Nazwa produktu" />
+        <header class="product-name">Nazwa produktu</header>
+        <p class="product-description">Opis produktu</p>
+        <p class="product-price">Cena: 20.00 zł</p>
+      </article> -->
+    </section>
+  </main>
+
+
+  <footer>
+    <p><strong>FastFood Express</strong><br>
+      ul. Smakowa 12, 00-001 Warszawa<br>
+      Tel: <a href="tel:+48123456789">+48 123 456 789</a><br>
+      E-mail: <a href="mailto:kontakt@fastfoodexpress.pl">kontakt@fastfoodexpress.pl</a></p>
+    <p><strong>Godziny otwarcia:</strong><br>
+      Pon–Pt: 10:00–22:00<br>
+      Sob–Niedz: 11:00–23:00</p>
+  </footer>
+
+  <script src="karuzela.js"></script>
+  <script src="data.js"></script>
+  <script src="dark_mode_switch.js"></script>
+  <script src="navbar.js"></script>
+  <script src="cart.js"></script>
+</body>
+
+</html>

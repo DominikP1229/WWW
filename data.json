@@ -1,0 +1,514 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Cheeseburger Classic",
+      "description": "Pyszny cheeseburger z serem cheddar, sałatą, pomidorem i sosem BBQ.",
+      "price": 22,
+      "category": "Burgery",
+      "isSpicy": false
+    },
+    {
+      "id": 2,
+      "name": "Hamburger Pikantny",
+      "description": "Klasyczny hamburger z ostrym sosem i jalapeños.",
+      "price": 18,
+      "category": "Burgery",
+      "isSpicy": true
+    },
+    {
+      "id": 3,
+      "name": "Bacon Burger",
+      "description": "Burger z chrupiącym boczkiem, serem cheddar, sałatą i majonezem.",
+      "price": 25,
+      "category": "Burgery",
+      "isSpicy": false
+    },
+    {
+      "id": 4,
+      "name": "BBQ Chicken Burger",
+      "description": "Burger z kurczakiem, serem, sałatą i sosem BBQ.",
+      "price": 24,
+      "category": "Burgery",
+      "isSpicy": false
+    },
+    {
+      "id": 5,
+      "name": "Cheese Delight Burger",
+      "description": "Burger z serem cheddar, mozzarellą, cebulą i ketchupem.",
+      "price": 23,
+      "category": "Burgery",
+      "isSpicy": false
+    },
+    {
+      "id": 6,
+      "name": "Zestaw Classic",
+      "description": "Zestaw z burgerem, frytkami i napojem.",
+      "price": 35,
+      "category": "Zestawy",
+      "isSpicy": false
+    },
+    {
+      "id": 7,
+      "name": "Zestaw Pikantny",
+      "description": "Pikantny zestaw z burgerem, ostrymi frytkami i napojem.",
+      "price": 38,
+      "category": "Zestawy",
+      "isSpicy": true
+    },
+    {
+      "id": 8,
+      "name": "Zestaw Family",
+      "description": "Zestaw dla całej rodziny z dwoma burgerami, dużą porcją frytek i napojami.",
+      "price": 55,
+      "category": "Zestawy",
+      "isSpicy": false
+    },
+    {
+      "id": 9,
+      "name": "Zestaw Wegański",
+      "description": "Zestaw z wegańskim burgerem, frytkami i napojem.",
+      "price": 32,
+      "category": "Zestawy",
+      "isSpicy": false
+    },
+    {
+      "id": 10,
+      "name": "Zestaw XXL",
+      "description": "Wielki zestaw z dużym burgerem, frytkami, napojem i deserem.",
+      "price": 60,
+      "category": "Zestawy",
+      "isSpicy": false
+    },
+    {
+      "id": 11,
+      "name": "Zapiekanka Z Kiełbasą",
+      "description": "Zapiekanka z kiełbasą, serem i cebulą.",
+      "price": 18,
+      "category": "Zapiekanki",
+      "isSpicy": false
+    },
+    {
+      "id": 12,
+      "name": "Zapiekanka Meksykańska",
+      "description": "Zapiekanka z ostrym sosem, jalapeños i mięsem mielonym.",
+      "price": 20,
+      "category": "Zapiekanki",
+      "isSpicy": true
+    },
+    {
+      "id": 13,
+      "name": "Zapiekanka Caprese",
+      "description": "Zapiekanka z mozzarellą, pomidorami i bazylią.",
+      "price": 22,
+      "category": "Zapiekanki",
+      "isSpicy": false
+    },
+    {
+      "id": 14,
+      "name": "Zapiekanka Classic",
+      "description": "Klasyczna zapiekanka z serem i pieczarkami.",
+      "price": 18,
+      "category": "Zapiekanki",
+      "isSpicy": false
+    },
+    {
+      "id": 15,
+      "name": "Zapiekanka Wegańska",
+      "description": "Zapiekanka z warzywami i wegańskim serem.",
+      "price": 21,
+      "category": "Zapiekanki",
+      "isSpicy": false
+    },
+    {
+      "id": 16,
+      "name": "Skrzydełka BBQ",
+      "description": "Skrzydełka kurczaka w sosie BBQ.",
+      "price": 30,
+      "category": "Skrzydełka z kurczaka",
+      "isSpicy": false
+    },
+    {
+      "id": 17,
+      "name": "Skrzydełka Pikantne",
+      "description": "Pikantne skrzydełka kurczaka w ostrym sosie.",
+      "price": 32,
+      "category": "Skrzydełka z kurczaka",
+      "isSpicy": true
+    },
+    {
+      "id": 18,
+      "name": "Skrzydełka Miodowe",
+      "description": "Skrzydełka w słodko-pikantnym sosie miodowym.",
+      "price": 28,
+      "category": "Skrzydełka z kurczaka",
+      "isSpicy": false
+    },
+    {
+      "id": 19,
+      "name": "Skrzydełka Węgierskie",
+      "description": "Skrzydełka w tradycyjnym węgierskim sosie.",
+      "price": 33,
+      "category": "Skrzydełka z kurczaka",
+      "isSpicy": true
+    },
+    {
+      "id": 20,
+      "name": "Skrzydełka Ziołowe",
+      "description": "Skrzydełka kurczaka w ziołowym marynacie.",
+      "price": 29,
+      "category": "Skrzydełka z kurczaka",
+      "isSpicy": false
+    },
+    {
+      "id": 21,
+      "name": "Frytki Klasyczne",
+      "description": "Klasyczne frytki do każdego posiłku.",
+      "price": 8,
+      "category": "Frytki",
+      "isSpicy": false
+    },
+    {
+      "id": 22,
+      "name": "Frytki Ostre",
+      "description": "Frytki przyprawione ostrym sosem.",
+      "price": 10,
+      "category": "Frytki",
+      "isSpicy": true
+    },
+    {
+      "id": 23,
+      "name": "Frytki Wegańskie",
+      "description": "Frytki bez dodatku tłuszczu zwierzęcego.",
+      "price": 9,
+      "category": "Frytki",
+      "isSpicy": false
+    },
+    {
+      "id": 24,
+      "name": "Frytki Z Serem",
+      "description": "Frytki z roztopionym serem cheddar.",
+      "price": 12,
+      "category": "Frytki",
+      "isSpicy": false
+    },
+    {
+      "id": 25,
+      "name": "Sałatka Grecka",
+      "description": "Sałatka z pomidorami, ogórkami, oliwkami i fetą.",
+      "price": 15,
+      "category": "Sałatki",
+      "isSpicy": false
+    },
+    {
+      "id": 26,
+      "name": "Sałatka Cezar",
+      "description": "Sałatka z kurczakiem, grzankami i sosem Cezar.",
+      "price": 18,
+      "category": "Sałatki",
+      "isSpicy": false
+    },
+    {
+      "id": 27,
+      "name": "Sałatka Wegańska",
+      "description": "Sałatka z warzywami i sosem wegańskim.",
+      "price": 16,
+      "category": "Sałatki",
+      "isSpicy": false
+    },
+    {
+      "id": 28,
+      "name": "Sałatka Ostra",
+      "description": "Sałatka z papryczkami jalapeños i ostrym sosem.",
+      "price": 18,
+      "category": "Sałatki",
+      "isSpicy": true
+    },
+    {
+      "id": 29,
+      "name": "Lody Czekoladowe",
+      "description": "Pyszne lody czekoladowe z kawałkami czekolady.",
+      "price": 12,
+      "category": "Lody",
+      "isSpicy": false
+    },
+    {
+      "id": 30,
+      "name": "Lody Truskawkowe",
+      "description": "Lody truskawkowe z naturalnymi kawałkami owoców.",
+      "price": 12,
+      "category": "Lody",
+      "isSpicy": false
+    },
+    {
+      "id": 31,
+      "name": "Lody Wegańskie",
+      "description": "Lody wegańskie z owoców.",
+      "price": 14,
+      "category": "Lody",
+      "isSpicy": false
+    },
+    {
+      "id": 32,
+      "name": "Lody Owoce Leśne",
+      "description": "Lody o smaku leśnych owoców.",
+      "price": 13,
+      "category": "Lody",
+      "isSpicy": false
+    },
+    {
+      "id": 33,
+      "name": "Lody Pistacjowe",
+      "description": "Lody pistacjowe z dodatkiem prażonych pistacji.",
+      "price": 15,
+      "category": "Lody",
+      "isSpicy": false
+    },
+    {
+      "id": 34,
+      "name": "Wrap z Kurczakiem",
+      "description": "Delikatny wrap z kurczakiem, sałatą, pomidorem, ogórkiem i sosem czosnkowym.",
+      "price": 18,
+      "category": "Wrapy",
+      "isSpicy": false
+    },
+    {
+      "id": 35,
+      "name": "Wrap Wegański",
+      "description": "Wegański wrap z warzywami, humusem i sosem jogurtowym.",
+      "price": 20,
+      "category": "Wrapy",
+      "isSpicy": false
+    },
+    {
+      "id": 36,
+      "name": "Wrap Pikantny",
+      "description": "Ostry wrap z kurczakiem, papryczkami jalapeños, sałatą i pikantnym sosem.",
+      "price": 22,
+      "category": "Wrapy",
+      "isSpicy": true
+    },
+    {
+      "id": 37,
+      "name": "Taco z Wołowiną",
+      "description": "Taco z mięsem wołowym, sałatą, serem cheddar i sosem sriracha.",
+      "price": 15,
+      "category": "Tacos",
+      "isSpicy": true
+    },
+    {
+      "id": 38,
+      "name": "Taco Wegańskie",
+      "description": "Taco z warzywami, guacamole i sosem pomidorowym.",
+      "price": 14,
+      "category": "Tacos",
+      "isSpicy": false
+    },
+    {
+      "id": 39,
+      "name": "Taco Kurczak",
+      "description": "Taco z kawałkami kurczaka, sałatą i sosem meksykańskim.",
+      "price": 17,
+      "category": "Tacos",
+      "isSpicy": false
+    },
+    {
+      "id": 40,
+      "name": "Coca-Cola",
+      "description": "Orzeźwiająca Coca-Cola w puszce.",
+      "price": 7,
+      "category": "Napoje",
+      "isSpicy": false
+    },
+    {
+      "id": 41,
+      "name": "Fanta Orange",
+      "description": "Pomarańczowa Fanta w puszce.",
+      "price": 7,
+      "category": "Napoje",
+      "isSpicy": false
+    },
+    {
+      "id": 42,
+      "name": "Sok Jabłkowy",
+      "description": "Naturalny sok jabłkowy.",
+      "price": 6,
+      "category": "Napoje",
+      "isSpicy": false
+    },
+    {
+      "id": 43,
+      "name": "Szarlotka",
+      "description": "Klasyczna polska szarlotka.",
+      "price": 9,
+      "category": "Desery",
+      "isSpicy": false
+    },
+    {
+      "id": 44,
+      "name": "Czekoladowe Brownie",
+      "description": "Pyszne, wilgotne czekoladowe brownie z kawałkami czekolady.",
+      "price": 8,
+      "category": "Desery",
+      "isSpicy": false
+    },
+    {
+      "id": 45,
+      "name": "Sernik Truskawkowy",
+      "description": "Sernik z truskawkami na wierzchu.",
+      "price": 10,
+      "category": "Desery",
+      "isSpicy": false
+    },
+    {
+      "id": 46,
+      "name": "Pizza Margherita",
+      "description": "Klasyczna pizza Margherita z sosem pomidorowym, mozzarellą i bazylią.",
+      "price": 25,
+      "category": "Pizze",
+      "isSpicy": false
+    },
+    {
+      "id": 47,
+      "name": "Pizza Pepperoni",
+      "description": "Pizza z pepperoni, sosem pomidorowym i mozzarellą.",
+      "price": 28,
+      "category": "Pizze",
+      "isSpicy": true
+    },
+    {
+      "id": 48,
+      "name": "Pizza Wegańska",
+      "description": "Pizza z wegańskim serem, warzywami i sosem pomidorowym.",
+      "price": 26,
+      "category": "Pizze",
+      "isSpicy": false
+    },
+    {
+      "id": 49,
+      "name": "Pizza BBQ Chicken",
+      "description": "Pizza z kurczakiem, sosem BBQ, mozzarellą i cebulą.",
+      "price": 30,
+      "category": "Pizze",
+      "isSpicy": false
+    },
+    {
+      "id": 50,
+      "name": "Pizza Hawaijska",
+      "description": "Pizza z szynką, ananasem, sosem pomidorowym i mozzarellą.",
+      "price": 27,
+      "category": "Pizze",
+      "isSpicy": false
+    }
+  ],
+  "orders": [
+    {
+      "id": "918b",
+      "firstName": "Dom",
+      "lastName": "Pta",
+      "email": "aaa@aaa",
+      "address": "dadad",
+      "products": [
+        2,
+        7,
+        48
+      ],
+      "timestamp": "2025-05-20T20:37:30.013Z"
+    },
+    {
+      "id": "cc64",
+      "firstName": "Dominik",
+      "lastName": "Ptak",
+      "email": "polskinielot@gmail.com",
+      "address": "Czerwone 146A",
+      "products": [
+        45,
+        43,
+        44
+      ],
+      "timestamp": "2025-05-20T20:46:59.465Z"
+    },
+    {
+      "id": "b86b",
+      "firstName": "Dominik",
+      "lastName": "Ptak",
+      "email": "adas@adad",
+      "address": "Czerwone 146A",
+      "products": [
+        4,
+        6
+      ],
+      "timestamp": "2025-05-20T20:55:40.065Z"
+    },
+    {
+      "id": "ea52",
+      "firstName": "Dominik",
+      "lastName": "Ptak",
+      "email": "polskinielot@gmail.com",
+      "address": "Czerwone 146A",
+      "products": [
+        9
+      ],
+      "timestamp": "2025-05-20T20:59:57.110Z"
+    },
+    {
+      "id": "3fa5",
+      "firstName": "Dominik",
+      "lastName": "Ptak",
+      "email": "aaa@aaa",
+      "address": "Czerwone 146A",
+      "products": [
+        46,
+        44
+      ],
+      "timestamp": "2025-05-20T21:04:50.016Z"
+    },
+    {
+      "id": "503d",
+      "firstName": "Dominik",
+      "lastName": "Ptak",
+      "email": "polskinielot@gmail.com",
+      "address": "Czerwone 146A",
+      "products": [
+        2
+      ],
+      "timestamp": "2025-05-20T21:08:44.542Z"
+    },
+    {
+      "id": "0166",
+      "firstName": "Dominik",
+      "lastName": "Ptak",
+      "email": "adasda@dadad",
+      "address": "Czerwone 146A",
+      "products": [
+        1,
+        6
+      ],
+      "timestamp": "2025-05-20T21:12:02.168Z"
+    },
+    {
+      "id": "94e4",
+      "firstName": "Dadada",
+      "lastName": "dada",
+      "email": "dada@dada",
+      "address": "dadadadad",
+      "products": [
+        7,
+        11,
+        27
+      ],
+      "timestamp": "2025-05-20T21:15:24.147Z"
+    },
+    {
+      "id": "5d77",
+      "firstName": "aa",
+      "lastName": "ddada",
+      "email": "adaadadada@dada",
+      "address": "dadadadadadadadadada",
+      "products": [
+        11
+      ],
+      "timestamp": "2025-05-20T21:18:43.312Z"
+    }
+  ]
+}
