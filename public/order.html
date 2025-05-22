@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FastFood</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="order.css">
+</head>
+
+<body>
+    <header>
+        <button id="nav_button">
+            <img src="nav_button.png" alt="Navbar button">
+        </button>
+
+        <a href="index.html"><img src="main_logo_small.png" alt="FastFood logo" id="logo"></a>
+
+        <a href="order.html" id="cart">
+            <img src="shopping_cart.png" alt="Koszyk">
+        </a>
+    </header>
+    <nav id="page_nav">
+        <label class="theme-switch">
+            <input type="checkbox" id="themeToggle">
+            <span class="slider"></span> Ciemny motyw
+        </label>
+        <a href="about_us.html">
+            <p>O nas</p>
+        </a>
+        <a href="declaration.html">
+            <p>Deklaracja dostępności</p>
+        </a>
+
+    </nav>
+
+    <main id="order-section">
+        <h1>Złóż zamówienie</h1>
+
+        <div id="cart-summary">
+            <h2>Twoje zamówienie</h2>
+            <ul id="cart-items"></ul>
+            <p id="total-price"><strong>Suma: </strong>0 zł</p>
+        </div>
+
+        <form id="orderForm">
+            <label>
+                Imię:
+                <input type="text" name="firstName" required minlength="2">
+            </label>
+
+            <label>
+                Nazwisko:
+                <input type="text" name="lastName" required minlength="2">
+            </label>
+
+            <label>
+                E-mail:
+                <input type="email" name="email" required>
+            </label>
+
+            <label>
+                Adres dostawy:
+                <textarea name="address" required minlength="5"></textarea>
+            </label>
+
+            <button type="submit">Wyślij zamówienie</button>
+        </form>
+
+        <p id="orderStatus" role="alert"></p>
+    </main>
+    
+  <footer>
+    <p><strong>FastFood Express</strong><br>
+      ul. Smakowa 12, 00-001 Warszawa<br>
+      Tel: <a href="tel:+48123456789">+48 123 456 789</a><br>
+      E-mail: <a href="mailto:kontakt@fastfoodexpress.pl">kontakt@fastfoodexpress.pl</a></p>
+    <p><strong>Godziny otwarcia:</strong><br>
+      Pon–Pt: 10:00–22:00<br>
+      Sob–Niedz: 11:00–23:00</p>
+  </footer>
+
+    <script src="order.js"></script>
+    <script src="dark_mode_switch.js"></script>
+    <script src="navbar.js"></script>
+    <script src="cart.js"></script>
+</body>
+
+</html>

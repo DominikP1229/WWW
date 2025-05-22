@@ -1,0 +1,167 @@
+#order-section {
+  max-width: 700px;
+  margin: 4rem auto;
+  padding: 2rem;
+  background-color: #fffefc;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  line-height: 1.6;
+}
+
+#order-section h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+#cart-summary {
+  margin-bottom: 2rem;
+  background-color: #f9f9f9;
+  border-left: 4px solid #ffca28;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+#cart-summary h2 {
+  font-size: 1.4rem;
+  margin-bottom: 0.8rem;
+}
+
+#cart-items {
+  list-style: none;
+  padding-left: 0;
+}
+
+#cart-items li {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+}
+
+#total-price {
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+#orderForm {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+#orderForm label {
+  display: flex;
+  flex-direction: column;
+  font-weight: 600;
+}
+
+#orderForm input,
+#orderForm textarea {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  resize: vertical;
+}
+
+#orderForm button {
+  padding: 0.75rem;
+  background-color: #ffca28;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  /* transition: background-color 0.3s; */
+}
+
+#orderForm button:hover {
+  background-color: #ffc107;
+}
+
+#orderStatus {
+  margin-top: 1.5rem;
+  font-weight: bold;
+}
+
+#cart-items li {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.remove-btn {
+  background-color: #f44336;
+  color: #fff;
+  border: none;
+  padding: 0.3rem 0.6rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background-color 0.3s;
+}
+
+.remove-btn:hover {
+  background-color: #d32f2f;
+}
+
+body[data-theme="dark"] .remove-btn {
+  background-color: #e57373;
+  color: #111;
+}
+
+body[data-theme="dark"] .remove-btn:hover {
+  background-color: #ef5350;
+}
+
+
+/* 🌙 Tryb ciemny */
+body[data-theme="dark"] #order-section {
+  background-color: #2b2b2b;
+  color: #f0f0f0;
+  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.05);
+}
+
+body[data-theme="dark"] #cart-summary {
+  background-color: #3a3a3a;
+  border-left-color: #ffd740;
+}
+
+body[data-theme="dark"] #cart-summary h2 {
+  color: #fff9c4;
+}
+
+body[data-theme="dark"] #cart-items li {
+  border-bottom: 1px solid #555;
+  color: #e0e0e0;
+}
+
+body[data-theme="dark"] #total-price {
+  color: #fff59d;
+}
+
+body[data-theme="dark"] #orderForm label {
+  color: #f0f0f0;
+}
+
+body[data-theme="dark"] #orderForm input,
+body[data-theme="dark"] #orderForm textarea {
+  background-color: #444;
+  color: #f0f0f0;
+  border: 1px solid #777;
+}
+
+body[data-theme="dark"] #orderForm button {
+  background-color: #ffca28;
+  color: #222;
+}
+
+body[data-theme="dark"] #orderForm button:hover {
+  background-color: #ffc107;
+}
+
+body[data-theme="dark"] #orderStatus {
+  color: #fff;
+}
